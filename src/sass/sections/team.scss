@@ -1,124 +1,162 @@
+.background__container-bottom--services {
+  text-align: center;
+}
+
+.background__container-bottom--title-one {
+  font-family: $font-kaushan;
+  font-size: 24px;
+}
+
+.background__container-bottom--title-two {
+  display: block;
+  font-family: $font-montserrat;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 104px;
+  margin-top: 14px;
+}
+
+.background__container-bottom--title-two:after {
+  position: absolute;
+  display: block;
+  content: '';
+  height: 3px;
+  width: 60px;
+  background-color: $color-peach;
+  margin-left: 570px;
+  margin-top: 36px;
+}
+
 .team {
-    text-align: center;
+  text-align: center;
 }
 
 .team__text-bottom {
-    font-family: $font-roboto;
-    font-size: 15px;
-    font-weight: 400;
-    text-align: left;
-    color: $color-light-grey;
-    line-height: 1.6;
-    text-align: center;
-    margin: 0 auto;
-    width: 944px;
-    margin-bottom: 88px;
+  font-family: $font-roboto;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  color: $color-light-grey;
+  line-height: 1.6;
+  text-align: center;
+  margin: 0 auto;
+  width: 944px;
+  margin-bottom: 88px;
 }
 
 .team__photo {
-    position: relative;
-    margin-bottom: 28px;
-    width: 380px;
-    -webkit-transition-duration: 200ms;
-         -o-transition-duration: 200ms;
-            transition-duration: 200ms;
+  position: relative;
+  margin-bottom: 28px;
+  width: 380px;
+  -webkit-transition-duration: 200ms;
+  -o-transition-duration: 200ms;
+  transition-duration: 200ms;
 
-    &:hover {
-        -webkit-transform: translate(-10px, -10px);
-            -ms-transform: translate(-10px, -10px);
-                transform: translate(-10px, -10px);
-        -webkit-box-shadow: 10px 10px $color-cyan;
-                box-shadow: 10px 10px $color-cyan;
-        -webkit-transition-duration: 200ms;
-            -o-transition-duration: 200ms;
-                transition-duration: 200ms;
-    }
+  &:hover {
+    -webkit-transform: translate(-10px, -10px);
+    -ms-transform: translate(-10px, -10px);
+    transform: translate(-10px, -10px);
+    -webkit-box-shadow: 10px 10px $color-cyan;
+    box-shadow: 10px 10px $color-cyan;
+    -webkit-transition-duration: 200ms;
+    -o-transition-duration: 200ms;
+    transition-duration: 200ms;
+  }
 }
 
 .overlay {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    position: absolute;
-    background-image: -webkit-gradient(linear, left top, left bottom, from($color-peach-transparent), to($color-lemon-transparent));
-    background-image: -o-linear-gradient($color-peach-transparent), ($color-lemon-transparent);
-    background-image: linear-gradient($color-peach-transparent), ($color-lemon-transparent);
-    width: 100%;
-    height: 100%;
-    top: 0;
-    visibility: hidden;
-    list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from($color-peach-transparent),
+    to($color-lemon-transparent)
+  );
+  background-image: -o-linear-gradient($color-peach-transparent),
+    ($color-lemon-transparent);
+  background-image: linear-gradient($color-peach-transparent),
+    ($color-lemon-transparent);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  visibility: hidden;
+  list-style-type: none;
 }
 
 .team__photo:hover .overlay {
-    visibility: visible;
+  visibility: visible;
 }
 
 .overlay__button {
-    width: 56px;
-    height: 56px;
-    background-color: $color-lemon;
-    border: 1px solid $color-peach;
+  width: 56px;
+  height: 56px;
+  background-color: $color-lemon;
+  border: 1px solid $color-peach;
 
-    &:hover {
-        background-color: $color-peach;
-        cursor: pointer;
-        -webkit-transition: 0.2s linear;
-        -o-transition: 0.2s linear;
-        transition: 0.2s linear;
-    }
+  &:hover {
+    background-color: $color-peach;
+    cursor: pointer;
+    -webkit-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+  }
 }
 
 .overlay__button svg {
-    display: inline-block;
-    width: 28px;
-    height: 28px;
-    margin-top: 14px;
-    fill:$color-peach;
-    -webkit-transition: fill 0.2s linear;
-    -o-transition: fill 0.2s linear;
-    transition: fill 0.2s linear;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-top: 14px;
+  fill: $color-peach;
+  -webkit-transition: fill 0.2s linear;
+  -o-transition: fill 0.2s linear;
+  transition: fill 0.2s linear;
 }
 
 .overlay__button:hover svg {
-    fill: $color-white;
+  fill: $color-white;
 }
 
 .team__photo-card {
-    text-align: center;
-    width: 380px;
+  text-align: center;
+  width: 380px;
 }
 
 .team__photos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .team__photo-title {
-    font-family: $font-montserrat;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
-    margin-bottom: 8px;
-    color: $color-grey;
+  font-family: $font-montserrat;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 8px;
+  color: $color-grey;
 }
 
 .team__photo-text {
-    font-family: $font-roboto;
-    font-size: 15px;
-    font-weight: 300;
-    font-style: italic;
-    color: $color-light-grey;
-    line-height: 1.6;
-    margin-bottom: 108px;
+  font-family: $font-roboto;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+  color: $color-light-grey;
+  line-height: 1.6;
+  margin-bottom: 108px;
 }
