@@ -1,5 +1,5 @@
 {
-  "name": "gulp-starter-kit",
+  "name": "test",
   "version": "1.2.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://gennadiy123.github.io/test-HTML-CSS",
+  "homepage": "https://gennadiy123.github.io/test",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gennadiy123/test-HTML-CSS.git"
+    "url": "git+https://github.com/gennadiy123/test.git"
   },
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gennadiy123/test-HTML-CSS/issues"
+    "url": "https://github.com/gennadiy123/test/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.7.0",
